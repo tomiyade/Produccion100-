@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/887a835504.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-secondary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">CasaIdeal</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./pages/alquilar.html">Alquilar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/sobreNos.html">Sobre Nosotros</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!-- SLIDER -->
+
+    <main class="main-1">
+        <div class="carrousel">
+            <div class="conteCarrousel">
+                <div class="itemCarrousel" id="itemCarrousel-1">
+                    <div class="itemCarrouselTarjeta"><img src="./img/casa1.jpg" alt="foto de la parte de atras de una casa con pileta"></div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-3">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-2">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemCarrousel" id="itemCarrousel-2">
+                    <div class="itemCarrouselTarjeta"><img src="./img/casa2.jpg" alt="foto del patio de una casa en el bosque"></div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-1">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-3">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="itemCarrousel" id="itemCarrousel-3">
+                    <div class="itemCarrouselTarjeta"><img src="./img/casa3.jpg" alt="foto de una casa de frente"></div>
+                    <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-2">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-1">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- CARDS -->
+
+    <!-- <div class="title-cards">
+        <h2>Diferentes Casas</h2>
+    </div>
+    <div class="container-card">
+        <div class="card">
+            <figure>
+                <img src="./img/casaCard1.jpg" alt="foto del frente de la primera casa">
+            </figure>
+            <div class="contenido-card">
+                <h3>Casa 1</h3>
+                <p>Ubicada en excelente entorno, gran parque con piscina y arboleda exhuberante.
+                    La casa cuenta con 4 Dormitorios, 2 en suite, 3 baños, cocina definida, dependencia de servicio, living comedor, toilette, cochera, parrillero , amplias galerías que dan al parque </p>
+                <a href="#">Ir a Alquilar</a>
+        </div>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="./img/casaCard2.jpg" alt="foto de la parte de atras de la casa con pileta">
+            </figure>
+            <div class="contenido-card">
+                <h3>Casa 2</h3>
+                <p>Digna de admirar, con vista a la laguna y magnífico parque.
+                    Son 5 dormitorios en suite, toilette, cocina doble, gran living comedor, lavadero, parrilla, pileta climatizada, garage para 4 autos.
+                    Detalles de categoría como cava de vinos y sauna con ducha.</p>
+                <a href="#">Ir a Alquilar</a>
+            </div>
+        </div>
+        <div class="card">
+            <figure>
+                <img src="./img/casaCard3.jpg" alt="foto de casa en el medio del bosque">
+            </figure>
+            <div class="contenido-card">
+                <h3>Casa 3</h3>
+                <p>Cuenta con 5 dormitorios, 2 en suite, 3 baños, toilette, Escritorio, Living, Comedor, Cocina semi integrada con barra, garage</p>
+                <a href="#">Ir a Alquilar</a>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="contenedor">
+        <div class="card">
+            <div class="card-header">
+                <img src="../img/casaCard1.jpg" alt="foto del frente de la primera casa">
+            </div>
+            <div class="card-body">
+                <h2 class="card-title">Casa 1</h2>
+                <p class="card-description">
+                    Ubicada en excelente entorno, gran parque con piscina y arboleda exhuberante. La casa cuenta con 4 Dormitorios, 2 en suite, 3 baños, cocina definida, dependencia de servicio, living comedor, toilette, cochera, parrillero , amplias galerías que dan al parque
+                </p>
+                <a href="./pages/alquilar.html" class="btn">Ir a Alquilar</a>
+            </div>
+        </div>
+       
+        
+        <div class="card">
+            <div class="card-header">
+                <img src="../img/casaCard2.jpg" alt="foto de la parte de atras de la casa con pileta">
+            </div>
+            <div class="card-body">
+                <h2 class="card-title">Casa 2</h2>
+                <p class="card-description">
+                    Digna de admirar, con vista a la laguna y magnífico parque. Son 5 dormitorios en suite, toilette, cocina doble, gran living comedor, lavadero, parrilla, pileta climatizada, garage para 4 autos. Detalles de categoría como cava de vinos y sauna con ducha.
+                </p>
+                <a href="./pages/alquilar.html" class="btn">Ir a Alquilar</a>
+            </div>
+        </div>
+            
+        <div class="card">
+            <div class="card-header">
+                <img src="../img/casaCard3.jpg" alt="foto de casa en el medio del bosque">
+            </div>
+            <div class="card-body">
+                <h2 class="card-title">Casa 3</h2>
+                <p class="card-description">
+                    Cuenta con 5 dormitorios, 2 en suite, 3 baños, toilette, Escritorio, Living, Comedor, Cocina semi integrada con barra, garage
+                </p>
+                <a href="./pages/alquilar.html" class="btn">Ir a Alquilar</a>
+            </div>
+        </div>
+    </div>
+    
+<!-- FOOTER -->
+
+<footer class="pie-pagina">
+    <div class="grupo-1">
+        <div class="box">
+            <figure>
+                <a href="#">
+                    <h1>CasaIdeal</h1>
+                </a>
+            </figure>
+        </div>
+        <div class="box">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>Somos una compania la cual se dedica a vender y alquilar casas por la Ciudad Autonoma de Buenos Aires desde hace mas de 30 años</p>
+        </div>
+        <div class="box">
+            <h2>SEGUINOS</h2>
+            <div class="red-social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
